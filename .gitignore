@@ -1,3 +1,4 @@
+pretrained/deeplabv3plus-xception-vocNov14_20-51-38_epoch-89.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
