@@ -20,7 +20,7 @@ bash demo.sh
 To test on your own data, just refer to the structure of the `demo_imgs` folder and the `inference/demo.sh` file respectively for data preparation and model running. Guess it would be very easy to get start by replacing them with your own data / bash script :).
 
 ## Parsing Index
-Below is the person part index (i.e. pixel value) of the paring result:
+Below is the person part index (i.e. pixel value) of the parsing result:
 |  Part   | index | Part | index |
 |  ----  | ----  |  ----  | ----  |
 | background  | 0 | neck | 10 |
