@@ -1,5 +1,7 @@
 # 2D-Human-Parsing
 
+![2D-Huamn-Parsing](/assets/teaser.png "Teaser Image")
+
 ## Requirements
 
 ```
@@ -12,10 +14,27 @@ Download the pretrained model [here](https://figshare.com/s/04de7175dd937cf638e3
 cd inference
 bash demo.sh
 ```
-
+hat=1; hair=2; sunglass=4; shirt=5; dress=6; coats=7; pant=9; 
+neck=10; scarf=11; face=13; left_arm=14; right_arm=15; 
+left_leg=16; right_leg=17; left_shoe=18, right_shoe=19
 ## Testing on custom data
 
-To test on your own data, just refer to the structure of the `deom_imgs` folder and the `inference/demo.sh` file respectively for data preparation and model running. Guess it would be very easy to get start by replacing them with your own data / bash script :).
+To test on your own data, just refer to the structure of the `demo_imgs` folder and the `inference/demo.sh` file respectively for data preparation and model running. Guess it would be very easy to get start by replacing them with your own data / bash script :).
+
+## Parsing Index
+Below is the person part index (i.e. pixel value) of the paring result:
+|  Part   | index | Part | index |
+|  ----  | ----  |  ----  | ----  |
+| background  | 0 | neck | 10 |
+| hat  | 1 | scarf | 11 |
+| hair  | 2 | - | 12 |
+| - | 3 | face | 13 |
+| sunglass  | 4 | left arm | 14 |
+| shirt  | 5 | right arm | 15 |
+| dress  | 6 | left leg | 16 |
+| coats  | 7 | right leg | 17 | 
+| -  | 8 | left shoe | 18 |
+| pant  | 9 | right shoe | 19 |
 
 ## Acknowledgement
 The code and pretrained model in this repo are provided through the courtesy of [Bowen Wu](https://github.com/Bowenwu1). Thanks for his effort at making this easy-to-use human parsing codebase.

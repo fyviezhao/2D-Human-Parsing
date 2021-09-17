@@ -1,3 +1,4 @@
-/mnt/data1/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/suit.jpg
-/mnt/data1/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/skirt.jpg
-/mnt/data1/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/coat.jpg
+/mnt/date/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/suit.jpg
+/mnt/date/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/skirt.jpg
+/mnt/date/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/coat.jpg
+/mnt/date/zhaofuwei/Projects/2D-Human-Parsing/demo_imgs/multiperson.jpg
