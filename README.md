@@ -14,9 +14,7 @@ Download the pretrained model [here](https://figshare.com/s/04de7175dd937cf638e3
 cd inference
 bash demo.sh
 ```
-hat=1; hair=2; sunglass=4; shirt=5; dress=6; coats=7; pant=9; 
-neck=10; scarf=11; face=13; left_arm=14; right_arm=15; 
-left_leg=16; right_leg=17; left_shoe=18, right_shoe=19
+
 ## Testing on custom data
 
 To test on your own data, just refer to the structure of the `demo_imgs` folder and the `inference/demo.sh` file respectively for data preparation and model running. Guess it would be very easy to get start by replacing them with your own data / bash script :).
