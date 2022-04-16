@@ -25,7 +25,7 @@ Below is the person part index (i.e. pixel value) of the parsing result:
 |  ----  | ----  |  ----  | ----  |
 | background  | 0 | neck | 10 |
 | hat  | 1 | scarf | 11 |
-| hair  | 2 | - | 12 |
+| hair  | 2 | skirt | 12 |
 | - | 3 | face | 13 |
 | sunglass  | 4 | left arm | 14 |
 | shirt  | 5 | right arm | 15 |
