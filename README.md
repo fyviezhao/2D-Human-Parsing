@@ -36,3 +36,16 @@ Below is the person part index (i.e. pixel value) of the parsing result:
 
 ## Acknowledgement
 The code and pretrained model in this repo are provided through the courtesy of [Bowen Wu](https://github.com/Bowenwu1). Thanks for his effort at making this easy-to-use human parsing codebase.
+
+## Citation
+If you find this repo helpful and use it in your work/paper, please cite:
+```
+@misc{BowenParsing2021,
+  author = {Bowen Wu, Fuwei Zhao},
+  title = {2D-Human-Parsing},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/fyviezhao/2D-Human-Parsing}}
+}
+```
