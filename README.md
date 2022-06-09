@@ -9,7 +9,7 @@ python == 3.8.8, pytorch == 1.7.1, torchvision == 0.8.2, networkx == 2.6.2
 ```
 
 ## Demo Usage
-Download the pretrained model [here](https://figshare.com/s/04de7175dd937cf638e3) and put it to the `pretrained` folder, then simply run:
+Download the pretrained model [here](https://drive.google.com/drive/folders/1ZvXgp8EdcoHFu9uici7jDtin6hi_VO3h?usp=sharing) and put it to the `pretrained` folder, then simply run:
 ```sh
 cd inference
 bash demo.sh
